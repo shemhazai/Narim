@@ -1,1 +1,6 @@
 /src/com/github/shemhazai/web/MvcConfiguration.java
+build/
+.settings/
+target/
+.classpath/
+.gitignore/
