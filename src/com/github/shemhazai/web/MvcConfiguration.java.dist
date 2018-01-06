@@ -18,7 +18,7 @@ import com.github.shemhazai.dao.BoardDaoImpl;
 @Configuration
 @ComponentScan(basePackages = "com.github.shemhazai")
 @EnableWebMvc
-public class MvcConfiguration2 extends WebMvcConfigurerAdapter {
+public class MvcConfiguration extends WebMvcConfigurerAdapter {
 
 	@Bean
 	public ViewResolver getViewResolver() {
@@ -44,9 +44,9 @@ public class MvcConfiguration2 extends WebMvcConfigurerAdapter {
 	public DataSource getDataSource() {
 		DriverManagerDataSource dataSource = new DriverManagerDataSource();
 		dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-		dataSource.setUrl(url);
-		dataSource.setUsername(username);
-		dataSource.setPassword(password);
+		dataSource.setUrl("jdbc:mysql://127.0.0.1:3306/db");
+		dataSource.setUsername("user");
+		dataSource.setPassword("pass");
 		return dataSource;
 	}
 
