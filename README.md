@@ -1,7 +1,7 @@
 # Narim
 Narim - aplikacja internetowa oparta na standardzie HTML5 oferująca możliwość tworzenia mapy gier. Logika działania opiera się na zasadzie graj i pozwól innym grać. Użytkownik końcowy dostaje wygodny interfejs webowy poprzez który może modyfikować istniejące gry jak i w nie grać.
 
-[Link do gry](http://212.237.20.165:8080/Narim)
+[Link do gry](http://apps.shemhazai.com:8080/Narim-0.0.1-SNAPSHOT)
 
 ## Main
 Na stronie głównej widnieje siatka gier. Żółte bloczki oznaczają utworzoną grę - którą jeśli tylko chcemy możemy edytować. Przeciwieństwem żółtych bloczków są szare bloczki. Oznaczają one, że nikt nie utworzył w tym miejscu swojej gry i możemy sami to zrobić.
